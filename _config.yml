@@ -15,18 +15,18 @@ remote_theme             : "mmistakes/minimal-mistakes@4.16.6"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "es-ES"
-title                    : "Luis Miranda Sierra"
+locale                   : "es-US"
+title                    : "Alejandro Perez Hernandez"
 title_separator          : "-"
-name                     : "Luis"
-description              : "Blog sobre ciberseguridad"
+name                     : "Alejandro"
+description              : "Cybersecurity Blog"
 url                      : "https://void4m0n.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Void4m0n/Void4m0n.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "4le26x/4le26x.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : # "/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+#words_per_minute         : 200
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Luis Miranda Sierra"
-  avatar           : "/assets/images/void4m0n.png"
-  bio              : "ASIR | eCPPTv2 | eWPTv2 | eJPT | Pentester | CTF player"
-  location         : "España"
-  email            : "Miranda.sierra.luis@gmail.com"
+  name             : "Alejandro Perez Hernandez"
+  avatar           : "/assets/images/profile_img.jpeg"
+  bio              : "PNPT | eCPPT |eWPT | eJPT | PJPT | CTF player"
+  location         : "United States"
+  email            : "4le26x@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -114,19 +114,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Void4m0n"
+  github           : "4le26x"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "luis-miranda-sierra-1358a4221" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "alejandro-perez-hernandez-28158a120/" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "Void4m0n"
+    #twitter          : "Void4m0n"
   vine             :
   weibo            :
   xing             :

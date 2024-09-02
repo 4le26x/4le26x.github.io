@@ -3,9 +3,9 @@ main:
     url: /
   - title: "Blog"
     url: /year-archive/
-  - title: "Categorias"
+  - title: "Categories"
     url: /categories/
-  - title: "Etiquetas"
+  - title: "Tags"
     url: /tags/
   - title: "&#128269;"
     url: /search/

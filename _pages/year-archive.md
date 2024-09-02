@@ -1,5 +1,5 @@
 ---
-title: "Artículos Filtrados por Año"
+title: "Articles by Year"
 permalink: /year-archive/
 layout: posts
 author_profile: true

@@ -18,7 +18,7 @@ layout: default
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-      <h3>Filtrar por <i>nombre de la máquina, categoría, etiqueta, palabras claves, etc...</i></h3>
+      <h3>Filter by  <i>machine name, category, tag, keywords, etc...</i></h3>
     {% endunless %}
 
     {{ content }}
@@ -26,7 +26,7 @@ layout: default
     {%- assign search_provider = site.search_provider | default: "lunr" -%}
     {%- case search_provider -%}
       {%- when "lunr" -%}
-        <input type="text" id="search" class="search-input" tabindex="-1" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Introduce el término de búsqueda...' }}" />
+        <input type="text" id="search" class="search-input" tabindex="-1" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
         <div id="results" class="results"></div>
       {%- when "google" -%}
         <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
